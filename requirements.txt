@@ -1,0 +1,20 @@
+ultralytics         # YOLOv8 framework
+
+# --- Computer Vision ---
+opencv-python       # Image processing
+supervision         # Detection visualization & utilities
+Pillow              # Image loading
+albumentations       # Image + label augmentation (for class balancing)
+
+# --- Data Science ---
+numpy
+pandas
+matplotlib
+seaborn
+
+# --- API & Deployment ---
+fastapi>=0.100.0            # REST API framework
+uvicorn>=0.23.0             # ASGI server
+python-multipart>=0.0.6     # File upload support
+pydantic>=2.0.0             # Data validation
+python-dotenv>=1.0.0

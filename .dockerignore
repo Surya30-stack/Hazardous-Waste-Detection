@@ -1,0 +1,37 @@
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Frontend
+Frontend/node_modules/
+Frontend/dist/
+
+# Dataset
+Datasets/
+
+# Generated YOLO outputs
+inference_results/
+
+# Error analysis outputs
+runs/detect/error_analysis/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Git
+.git/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp

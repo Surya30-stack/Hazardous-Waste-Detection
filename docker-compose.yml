@@ -1,0 +1,15 @@
+services:
+
+  hazardous-waste-api:
+    image: hazardous-waste-detection:latest
+    container_name: hazardous-waste-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  hazardous-waste-frontend:
+    image: hazardous-waste-frontend:latest
+    container_name: hazardous-waste-frontend
+    ports:
+      - "5173:80"
+    restart: unless-stopped
